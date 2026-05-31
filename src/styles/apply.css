@@ -1,0 +1,79 @@
+.page-content {
+  padding: 80px 24px;
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.page-content h1 {
+  color: var(--green);
+  font-size: 36px;
+  margin-bottom: 24px;
+}
+
+.btn-nsfas {
+  margin-top: 40px;
+  padding: 12px 28px;
+  background: var(--green);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s;
+}
+
+.btn-nsfas:hover {
+  background: #3f5c41;
+}
+
+.accredited {
+  padding: 60px 24px;
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.accredited h2 {
+  color: var(--green);
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.accredited-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  justify-items: center;
+  align-items: center;
+}
+
+.accredited-grid img {
+  width: 3cm;
+  height: 3cm;
+  border-radius: 6px;
+  object-fit: cover;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.accredited-grid img:hover {
+  transform: scale(1.1);
+  border: 3px solid var(--green);
+  border-radius: 8px;
+}
+
+@media (max-width: 900px) {
+  .accredited-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.download-section {
+  text-align: center;
+  margin: 50px 0;
+}
